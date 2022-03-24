@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.usercard{
+    width: 100%;
+    background-color: white;
+    border: 2px solid darkgray;
+    margin-left: 20px;  
+}
+.header{
+    background-color: aqua;
+    height: 70px;
+    margin-bottom: 15px;
+    display: flex;}
+
+.usercircle{
+    height: 80px;
+    width: 80px;
+    margin: 10px 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 5px;
+    
+}
+.anchor{
+    display: flex;
+    align-items: center;
+}
+.info h1{
+    margin: 15px;
+}
+
+.info h1, .info h4, .info p, .info a{
+    margin: 20px;
+    
+}
+.image{
+    height: 15px;
+    width: 15px;
+    margin-right: 15px;
+    
+}
